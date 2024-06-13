@@ -705,7 +705,7 @@ function setimages()
 local userId = plr.UserId
 local thumbType = Enum.ThumbnailType.HeadShot
 local thumbSize = Enum.ThumbnailSize.Size420x420
-local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+local content, isReady = players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
 
 ImageLabel.Image = content
 ImageLabel_2.Image = content
